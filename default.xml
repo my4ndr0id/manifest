@@ -14,7 +14,6 @@
   <project name="device/generic/goldfish" revision="5feb8ecfd93c4e3c9eec89ab20dd143d05f7e91c"/>
   <project name="device/google/accessory/arduino" revision="9b1ef69828775a15396b753c16a83417bb769138"/>
   <project name="device/google/accessory/demokit" revision="c35b0f59498895a58dcc3d0ab8fb03683e123ded"/>
-  <project name="device/qcom/common" revision="36f1c0ff02b9e19516497a9bd1e57a63cb12143d"/>
   <project name="device/samsung/maguro" revision="1dfe54f5ffdc8029b8a4b579b04db3dcd1739da4"/>
   <project name="device/samsung/tuna" revision="f214929111e9b121cbce008c97046cb08f25146d"/>
   <project name="device/ti/panda" revision="1aea4038b079f1ae8bb92143b38f0f2c8b4a2620"/>
