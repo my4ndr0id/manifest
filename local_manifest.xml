@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="github" fetch="git://github.com" />
+
+	<remove-project name="device/samsung/tuna" />
+	<remove-project name="kernel/msm" />
+	<remove-project name="platform/external/webkit" />
+
+</manifest>
+
