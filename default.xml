@@ -5,7 +5,10 @@
   <remote name="github" fetch="git://github.com" />
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
 
-  <default remote="caf" revision="ics_strawberry_rb5.1"/>
+  <default remote="caf" 
+	   revision="ics_strawberry_rb5.1"
+           sync-c="true"
+           sync-j="4" />
 
   <project name="device/common" revision="0dcc1e03659db33b77392529466f9eb685cdd3c7"/>
   <project name="device/generic/goldfish" revision="5feb8ecfd93c4e3c9eec89ab20dd143d05f7e91c"/>
