@@ -290,7 +290,7 @@
 
   <project name="my4ndr0id/android_device_hisense_eg909" path="device/hisense/eg909" remote="github" revision="780611b102c356fd06dd2174de3021bf7ca0b01f"/>
 
-  <project name="my4ndr0id/android_build" path="build" remote="github" revision="9b8e3837a91d679b326ae61f8948b6cb507c4483">
+  <project name="my4ndr0id/android_build" path="build" remote="github" revision="b9be710f8fbad04cfccb7cac94f696b5ddc0b885">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
 
