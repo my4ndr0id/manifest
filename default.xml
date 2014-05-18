@@ -275,7 +275,7 @@
   <project name="my4ndr0id/android_external_compat-wireless" remote="github" path="external/compat-wireless" revision="13ed159bc99b561b16d156cafa68a921da2a271a"/>
   <project name="my4ndr0id/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="ba69e329cf53723bb5dafcdceb94ed5aa495bbda"/>
   <project name="my4ndr0id/android_frameworks_compile_slang" path="frameworks/compile/slang" remote="github" revision="4f713157240b65b0bd12928fb252f3b7f8a42861"/>
-  <project name="my4ndr0id/android_development" path="development" remote="github" revision="db723ba65937bb1de4eeb76302dd09997789ba50"/>
+  <project name="my4ndr0id/android_development" path="development" remote="github" revision="23ee10fe86558227311f4725ce1628e4f60338ec"/>
 
   <project name="my4ndr0id/android_system_vold" path="system/vold" remote="github" revision="d4b276259db6ba62fa751603bc16e355fb556e5e"/>
   <project name="my4ndr0id/android_system_extras" path="system/extras" remote="github" revision="c220babb4094cfecf36132af3218c71100d4cd71"/>
