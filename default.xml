@@ -26,7 +26,6 @@
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="e9a136ea98d2964cff67b37139cac664d5e3792c"/>
 
   <project name="platform/cts" path="cts" revision="e8e2ba191d30dad769a1b91a1c100b0bb5a80060"/>
-  <project name="platform/development" path="development" revision="b1025ec93beeb480caaf3049d171283c3846461d"/>
   <project name="platform/docs/source.android.com" path="docs/source.android.com" revision="fdb5d9eef1a124f9da1e7417dfa6e4b35218a993"/>
   <project name="platform/external/alljoyn/alljoyn_core" path="external/alljoyn/alljoyn_core" revision="dd2c1a5358547be2512365315dfad37fd9136bc5"/>
   <project name="platform/external/alljoyn/common" path="external/alljoyn/common" revision="ac0450c40745f7d4c6bde1b88a107a719a381552"/>
@@ -276,6 +275,7 @@
   <project name="my4ndr0id/android_external_compat-wireless" remote="github" path="external/compat-wireless" revision="13ed159bc99b561b16d156cafa68a921da2a271a"/>
   <project name="my4ndr0id/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="ba69e329cf53723bb5dafcdceb94ed5aa495bbda"/>
   <project name="my4ndr0id/android_frameworks_compile_slang" path="frameworks/compile/slang" remote="github" revision="4f713157240b65b0bd12928fb252f3b7f8a42861"/>
+  <project name="my4ndr0id/android_development" path="development" remote="github" revision="9678d0ebe8dab648e927f6223d3f60e841a91e39"/>
 
   <project name="my4ndr0id/android_system_vold" path="system/vold" remote="github" revision="d4b276259db6ba62fa751603bc16e355fb556e5e"/>
   <project name="my4ndr0id/android_system_extras" path="system/extras" remote="github" revision="c220babb4094cfecf36132af3218c71100d4cd71"/>
