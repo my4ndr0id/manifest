@@ -288,13 +288,13 @@
   <project name="my4ndr0id/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="7c89671681b9a393f0df6e60de805e6045186e77"/>
   <project name="my4ndr0id/android_frameworks_base" path="frameworks/base" remote="github" revision="ecf0468ec7532fd8f750a719e54b3e8a5188e2f7"/>
 
-  <project name="my4ndr0id/android_device_hisense_eg909" path="device/hisense/eg909" remote="github" revision="4b79a53a3259feee20b4390a856ed6134d6e8605"/>
+  <project name="my4ndr0id/android_device_hisense_eg909" path="device/hisense/eg909" remote="github" revision="780611b102c356fd06dd2174de3021bf7ca0b01f"/>
 
-  <project name="my4ndr0id/android_build" path="build" remote="github" revision="d43e5d2c6797f32a5df9fa2b8abf14755a3b800c">
+  <project name="my4ndr0id/android_build" path="build" remote="github" revision="9b8e3837a91d679b326ae61f8948b6cb507c4483">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
 
-  <project name="my4ndr0id/android_vendor_hisense" path="vendor/hisense" remote="github" revision="379839ef272e33419024a8e9ea051330b562bc48"/>
+  <project name="my4ndr0id/android_vendor_hisense" path="vendor/hisense" remote="github" revision="cd00690046604b56ead63a16b7368f0a3ecb1d06"/>
   <project name="my4ndr0id/android_vendor_qcom_proprietary" path="vendor/qcom/proprietary" remote="github" revision="2ce1086e1c69dfdfe837c08c64f916c1d1146b02"/>
   <project name="my4ndr0id/android_vendor_gapps" path="vendor/gapps" remote="github" revision="d579f11599f475d10a48225d7e6b4c4c9baab9a2"/>
 
