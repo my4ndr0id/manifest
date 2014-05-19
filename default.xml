@@ -297,6 +297,7 @@
   <project name="my4ndr0id/android_vendor_hisense" path="vendor/hisense" remote="github" revision="cd00690046604b56ead63a16b7368f0a3ecb1d06"/>
   <project name="my4ndr0id/android_vendor_qcom_proprietary" path="vendor/qcom/proprietary" remote="github" revision="e67dab3d458ba8bf5f66777228878421a2b85363"/>
   <project name="my4ndr0id/android_vendor_gapps" path="vendor/gapps" remote="github" revision="d579f11599f475d10a48225d7e6b4c4c9baab9a2"/>
+  <project name="my4ndr0id/android_vendor_my4ndr0id" path="vendor/my4ndr0id" remote="github" revision="ea0b5cdc064c0c8c23c2f2419ca7145c33929b52"/>
 
 <!-- from cm9 repository -->
 
