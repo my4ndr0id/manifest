@@ -1,5 +1,6 @@
 Note: Semua instruksi dibawah baru tested on Ubuntu 13.10.
 
+## setup environment
 Pertama setup environment ubuntunya, ada banyak tutorialnya:
 
 ``````````````````````
@@ -88,4 +89,72 @@ lalu jalankan perintah ini sekali saja, untuk menentukan ukuran dari cache, tent
 prebuilts/misc/linux-x86/ccache/ccache -M 15G
 ````````````````
 
-size 15 giga disarankan jika ingin build untuk satu device.
+size 15 giga disarankan jika ingin build untuk satu device. Ketik
+
+``````````````````
+source ~/.bashrc
+``````````````````
+
+untuk reload file tersebut.
+
+## build
+
+di folder root dari repository (ada tanda titiknya, emang bukan typo):
+
+``````````````
+. build/envsetup.sh
+``````````````
+
+lalu:
+
+`````````````
+lunch
+`````````````
+
+akan ada pilihan:
+
+````````````
+You're building on Linux
+
+Lunch menu... pick a combo:
+     1. full-eng
+     2. full_x86-eng
+     3. vbox_x86-eng
+     4. eg909-eng
+     5. full_maguro-userdebug
+     6. full_tuna-userdebug
+     7. full_panda-eng
+
+Which would you like? [full-eng] 
+```````````
+
+pilih no. 4 tentunya, atau bisa di bypass pilihannya, langsung ketik:
+
+````````````
+lunch eg909-eng
+```````````
+
+hasilnya sama:
+
+```````````
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=4.0.4
+TARGET_PRODUCT=eg909
+TARGET_BUILD_VARIANT=eng
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+HOST_ARCH=x86
+HOST_OS=linux
+HOST_BUILD_TYPE=release
+BUILD_ID=IMM76I
+============================================
+```````````
+
+compile dengan ketik:
+
+`````
+make
+`````
