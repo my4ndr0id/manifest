@@ -286,7 +286,7 @@
   <project name="my4ndr0id/android_device_sample" path="device/sample" remote="github" revision="a6c193856870ad49ed522654bee3188e062473e2"/>
 
   <project name="my4ndr0id/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="7c89671681b9a393f0df6e60de805e6045186e77"/>
-  <project name="my4ndr0id/android_frameworks_base" path="frameworks/base" remote="github" revision="ecf0468ec7532fd8f750a719e54b3e8a5188e2f7"/>
+  <project name="my4ndr0id/android_frameworks_base" path="frameworks/base" remote="github" revision="eafd6ddcc6bcd367d58f48de2a337c8649a03447"/>
 
   <project name="my4ndr0id/android_device_hisense_eg909" path="device/hisense/eg909" remote="github" revision="54be735f368f99dc7ccdfb198c8576431b294cfa"/>
 
