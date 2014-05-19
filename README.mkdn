@@ -1,3 +1,25 @@
+Note: Semua instruksi dibawah baru tested on Ubuntu 13.10.
+
+Pertama setup environment ubuntunya, ada banyak tutorialnya:
+
+``````````````````````
+http://forum.xda-developers.com/showpost.php?p=42014768&postcount=1
+``````````````````````
+
+atau
+
+``````````````````````
+http://source.android.com/source/initializing.html
+``````````````````````
+
+dan
+
+`````````````````````
+http://forum.xda-developers.com/showthread.php?t=2464683
+`````````````````````
+
+Download repository-nya
+
 ``````````````````
   repo init -u git://github.com/my4ndr0id/manifest.git -b caf-ics
 `````````````````
@@ -12,8 +34,42 @@ extract sesuai dengan folder-nya masing - masing, untuk kernel, patch AndroidKer
 
 download local_manifest ini agar ketiga project diatas tidak otomatis di sync
 
+di folder root dari repository ketik:
+
 ```````````
   curl -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/my4ndr0id/manifest/caf-ics/local_manifest.xml
 ``````````
 
-repo sync.
+lalu
+
+```````````
+repo sync
+``````````
+
+tambahan: penggunaan ccache sangat membantu proses compiling, walaupun tidak diwajibkan
+
+tambahkan line ini:
+
+````````````````````
+export USE_CCACHE=1
+````````````````
+
+ke file .bashrc baris paling bawah, caranya:
+
+`````````````````````
+gedit ~/.bashrc
+````````````````````
+
+dan paste line tersebut, optional: jika ingin menentukan lokasi lain dari directory ccache-nya, tambahkan juga ini:
+
+`````````````````````
+CCACHE_DIR=/lokasi-cache-directory-yang-baru/
+`````````````````````
+
+lalu jalankan perintah ini sekali saja, untuk menentukan ukuran dari cache, tentunya ini dilakukan setelah repository sudah didownload:
+
+`````````````````
+prebuilts/misc/linux-x86/ccache/ccache -M 15G
+````````````````
+
+size 15 giga disarankan jika ingin build untuk satu device.
