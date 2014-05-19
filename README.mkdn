@@ -30,7 +30,23 @@ untuk menghemat bandwidth, ketiga project ini lebih baik download zip-nya aja:
 * kernel/msm -> https://www.codeaurora.org/cgit/external/gigabyte/kernel/msm/snapshot/M8625SSNSKMLYA1050.tar.gz
 * platform/external/webkit -> https://www.codeaurora.org/cgit/external/gigabyte/platform/external/webkit/snapshot/M8625SSNSKMLYA1050.tar.gz
 
-extract sesuai dengan folder-nya masing - masing, untuk kernel, patch AndroidKernel.mk dengan https://github.com/marcofreda527/caf_kernel_msm_ics_strawberry/commit/c088ae12c1dd2ac3935a23e82255eb96dc0a3e05.patch
+extract sesuai dengan folder-nya masing - masing, untuk kernel, patch AndroidKernel.mk dengan
+
+```````````````
+https://github.com/marcofreda527/caf_kernel_msm_ics_strawberry/commit/c088ae12c1dd2ac3935a23e82255eb96dc0a3e05.patch
+``````````````
+
+caranya, di dalam folder kernel, ketik
+
+````````````
+wget https://github.com/marcofreda527/caf_kernel_msm_ics_strawberry/commit/c088ae12c1dd2ac3935a23e82255eb96dc0a3e05.patch
+``````````
+
+lalu
+
+```````````
+patch -p1 < c088ae12c1dd2ac3935a23e82255eb96dc0a3e05.patch
+```````````
 
 download local_manifest ini agar ketiga project diatas tidak otomatis di sync
 
