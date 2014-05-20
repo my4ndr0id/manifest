@@ -291,9 +291,9 @@
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
 
-  <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="github" revision="b081f8b0ec0dd5569c9e7dda65a5defb941cf78e"/>
-  <project name="platform/packages/apps/TSCalibration" path="packages/apps/TSCalibration" remote="github" revision="8d892467ee7cdc1531bd446831517355bc918f90"/>
-  <project name="platform/packages/apps/QualcommSoftAP" path="packages/apps/QualcommSoftAP" remote="github" revision="0751bb4cb39e1bf17af675d26411264050820589"/>
+  <project name="my4ndr0id/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="github" revision="b081f8b0ec0dd5569c9e7dda65a5defb941cf78e"/>
+  <project name="my4ndr0id/android_packages_apps_TSCalibration" path="packages/apps/TSCalibration" remote="github" revision="8d892467ee7cdc1531bd446831517355bc918f90"/>
+  <project name="my4ndr0id/android_packages_apps_QualcommSoftAP" path="packages/apps/QualcommSoftAP" remote="github" revision="0751bb4cb39e1bf17af675d26411264050820589"/>
 
   <project name="my4ndr0id/android_vendor_hisense" path="vendor/hisense" remote="github" revision="cd00690046604b56ead63a16b7368f0a3ecb1d06"/>
   <project name="my4ndr0id/android_vendor_qcom_proprietary" path="vendor/qcom/proprietary" remote="github" revision="07b18bb6422e0fa28a446cfa04aa4234e13d5c50"/>
