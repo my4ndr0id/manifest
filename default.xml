@@ -184,7 +184,6 @@
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="f2d2467d636ad955dcec7e7fc6efb067f3c9d18f"/>
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="bfeb66a399b8736348aa74d798f09b1aface9200"/>
   <project name="platform/packages/apps/Camera" path="packages/apps/Camera" revision="584b9cdf8b4d38ebfb9cb8383acb2019abbed3cf"/>
-  <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="85f9e91eb549d5f6ffea38a7502ab23d52787b0f"/>
   <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="4b4b4e93bebf977e1f52c6f1f6bf11fb70a96bcf"/>
   <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="597fec07ea33287d81003722ecde40ee69ac9f73"/>
   <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="9243d21e443047e434acca780bdf7fc7c1f98e41"/>
@@ -204,13 +203,11 @@
   <project name="platform/packages/apps/Phone" path="packages/apps/Phone" revision="d6dd2b29a985b7351638ae1ce3426c35cf5b5b76"/>
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="c976d3fa263168635ac18218507c96a2c81d51c4"/>
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision" revision="86bf6d8ac38de74b1bead64ac26fe5130dfffbf5"/>
-  <project name="platform/packages/apps/QualcommSoftAP" path="packages/apps/QualcommSoftAP" revision="045009ce13b6cd613ee57143eccd3f0ce913c4a8"/>
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="b5cea60d4234cbcf69c951377e634b39541f73d4"/>
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="b587c433f2f8f6f8d8e742b3165cf0f24130c974"/>
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="10f05a57805c5409f990959dcad25c67a82ec16d"/>
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" revision="62db451fb742f17669300b9915b9f446f43361ce"/>
   <project name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="f3018565f9cde9907c98a3cb9b8bcbbc756bdd7e"/>
-  <project name="platform/packages/apps/TSCalibration" path="packages/apps/TSCalibration" revision="6fe2d7b6bbfbac78ae6a5bb049d1f71da802aceb"/>
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag" revision="ee859f10200c98ee9a4e5c7ab25a8f78d87d3754"/>
   <project name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor" revision="84977f647192ec10dc94dccca7dd640f53834407"/>
   <project name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer" revision="f523fd17227c2f406304c3499fea4be3238a6216"/>
@@ -293,6 +290,10 @@
   <project name="my4ndr0id/android_build" path="build" remote="github" revision="f0b7f90dec86eba7a5dc3dfe320f8dd7f383ecb9">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
+
+  <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="github" revision="b081f8b0ec0dd5569c9e7dda65a5defb941cf78e"/>
+  <project name="platform/packages/apps/TSCalibration" path="packages/apps/TSCalibration" remote="github" revision="8d892467ee7cdc1531bd446831517355bc918f90"/>
+  <project name="platform/packages/apps/QualcommSoftAP" path="packages/apps/QualcommSoftAP" remote="github" revision="0751bb4cb39e1bf17af675d26411264050820589"/>
 
   <project name="my4ndr0id/android_vendor_hisense" path="vendor/hisense" remote="github" revision="cd00690046604b56ead63a16b7368f0a3ecb1d06"/>
   <project name="my4ndr0id/android_vendor_qcom_proprietary" path="vendor/qcom/proprietary" remote="github" revision="07b18bb6422e0fa28a446cfa04aa4234e13d5c50"/>
