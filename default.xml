@@ -275,7 +275,7 @@
   <project name="my4ndr0id/android_development" path="development" remote="github" revision="23ee10fe86558227311f4725ce1628e4f60338ec"/>
 
   <project name="my4ndr0id/android_system_vold" path="system/vold" remote="github" revision="d4b276259db6ba62fa751603bc16e355fb556e5e"/>
-  <project name="my4ndr0id/android_system_extras" path="system/extras" remote="github" revision="c220babb4094cfecf36132af3218c71100d4cd71"/>
+  <project name="my4ndr0id/android_system_extras" path="system/extras" remote="github" revision="956e46a6a6b26aa44c00bb2bd9bcfd49f7c930f0"/>
   <project name="my4ndr0id/android_system_core" path="system/core" remote="github" revision="b785b4c3ccea96150a705b8c2e8a51be4616e7aa"/>
 
   <project name="my4ndr0id/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cdd62c437cb31d17622bad210a82a8d5f8f39fc7"/>
@@ -298,11 +298,10 @@
   <project name="my4ndr0id/android_vendor_hisense" path="vendor/hisense" remote="github" revision="cd00690046604b56ead63a16b7368f0a3ecb1d06"/>
   <project name="my4ndr0id/android_vendor_qcom_proprietary" path="vendor/qcom/proprietary" remote="github" revision="07b18bb6422e0fa28a446cfa04aa4234e13d5c50"/>
   <project name="my4ndr0id/android_vendor_gapps" path="vendor/gapps" remote="github" revision="d579f11599f475d10a48225d7e6b4c4c9baab9a2"/>
-  <project name="my4ndr0id/android_vendor_my4ndr0id" path="vendor/my4ndr0id" remote="github" revision="8594dc110404181428848a9be6ed0d2f3628328c"/>
+  <project name="my4ndr0id/android_vendor_my4ndr0id" path="vendor/my4ndr0id" remote="github" revision="304e808845b6a11152edda31b9db7cf3348eb6d6"/>
 
 <!-- from cm9 repository -->
 
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="refs/heads/ics" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="refs/heads/ics" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="github" revision="refs/heads/ics"/>
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="refs/heads/ics" />
