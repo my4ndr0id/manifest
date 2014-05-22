@@ -105,56 +105,23 @@ di folder root dari repository (ada tanda titiknya, emang bukan typo):
 . build/envsetup.sh
 ``````````````
 
-lalu:
+lalu ketik
 
 `````````````
-lunch
+brunch
 `````````````
 
 akan ada pilihan:
 
-````````````
+``````````````````````
+including vendor/my4ndr0id/vendorsetup.sh
+
 You're building on Linux
 
-Lunch menu... pick a combo:
+Breakfast menu... pick a combo:
      1. full-eng
-     2. full_x86-eng
-     3. vbox_x86-eng
-     4. eg909-eng
-     5. full_maguro-userdebug
-     6. full_tuna-userdebug
-     7. full_panda-eng
+     2. my4ndr0id_eg909-eng
+... and don't forget the bacon!
+``````````````````````
 
-Which would you like? [full-eng] 
-```````````
-
-pilih no. 4 tentunya, atau bisa di bypass pilihannya, langsung ketik:
-
-````````````
-lunch eg909-eng
-```````````
-
-hasilnya sama:
-
-```````````
-============================================
-PLATFORM_VERSION_CODENAME=REL
-PLATFORM_VERSION=4.0.4
-TARGET_PRODUCT=eg909
-TARGET_BUILD_VARIANT=eng
-TARGET_BUILD_TYPE=release
-TARGET_BUILD_APPS=
-TARGET_ARCH=arm
-TARGET_ARCH_VARIANT=armv7-a-neon
-HOST_ARCH=x86
-HOST_OS=linux
-HOST_BUILD_TYPE=release
-BUILD_ID=IMM76I
-============================================
-```````````
-
-compile dengan ketik:
-
-`````
-make
-`````
+pilih nomer dua, selesai build zip installer akan ada di folder out/target/product/eg909/
