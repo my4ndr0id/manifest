@@ -121,7 +121,9 @@ You're building on Linux
 Breakfast menu... pick a combo:
      1. full-eng
      2. my4ndr0id_eg909-eng
+     3. my4ndr0id_eg909-userdebug
+     4. my4ndr0id_eg909-user
 ... and don't forget the bacon!
 ``````````````````````
 
-pilih nomer dua, selesai build zip installer akan ada di folder out/target/product/eg909/
+pilih nomer dua,mode userdebug dan user masih blum fix. Jika selesai build zip installer akan ada di folder out/target/product/eg909/
