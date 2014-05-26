@@ -276,14 +276,14 @@
 
   <project name="my4ndr0id/android_system_vold" path="system/vold" remote="github" revision="92aa292fcc622a646373cb205f23a30e6aa7abfe"/>
   <project name="my4ndr0id/android_system_extras" path="system/extras" remote="github" revision="956e46a6a6b26aa44c00bb2bd9bcfd49f7c930f0"/>
-  <project name="my4ndr0id/android_system_core" path="system/core" remote="github" revision="6dd536a826613f5c7a2c48f58b5d4b3d8c9dcb04"/>
+  <project name="my4ndr0id/android_system_core" path="system/core" remote="github" revision="60cf9b78ceca973177d1ae01f819e40476234591"/>
 
   <project name="my4ndr0id/android_device_qcom_common" path="device/qcom/common" remote="github" revision="8d7517273ded81706189895feedb50a9d50c4512"/>
   <project name="my4ndr0id/android_device_qcom_msm7627a" path="device/qcom/msm7627a" remote="github" revision="f1717838b5b2608d43c0e2b9218718518bbce391"/>
   <project name="my4ndr0id/android_device_sample" path="device/sample" remote="github" revision="a6c193856870ad49ed522654bee3188e062473e2"/>
 
   <project name="my4ndr0id/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="210c4a4258797e9b558e0590b75bb286c2438245"/>
-  <project name="my4ndr0id/android_frameworks_base" path="frameworks/base" remote="github" revision="2161b7e0a42f7cc8d9d5599703d4792a61e5a7db"/>
+  <project name="my4ndr0id/android_frameworks_base" path="frameworks/base" remote="github" revision="1666a172fe86235f3e24664de791de2fafb5c20f"/>
 
   <project name="my4ndr0id/android_device_hisense_eg909" path="device/hisense/eg909" remote="github" revision="fd16948eda6d49a0ae6d5dfe34e415da9b25ec34"/>
 
@@ -298,7 +298,7 @@
   <project name="my4ndr0id/android_vendor_hisense" path="vendor/hisense" remote="github" revision="cd00690046604b56ead63a16b7368f0a3ecb1d06"/>
   <project name="my4ndr0id/android_vendor_qcom_proprietary" path="vendor/qcom/proprietary" remote="github" revision="07b18bb6422e0fa28a446cfa04aa4234e13d5c50"/>
   <project name="my4ndr0id/android_vendor_gapps" path="vendor/gapps" remote="github" revision="d579f11599f475d10a48225d7e6b4c4c9baab9a2"/>
-  <project name="my4ndr0id/android_vendor_my4ndr0id" path="vendor/my4ndr0id" remote="github" revision="5c5236022315bb75b0f8283a9abd330f5a6069dd"/>
+  <project name="my4ndr0id/android_vendor_my4ndr0id" path="vendor/my4ndr0id" remote="github" revision="de1778508f2df377078329767c5ba3fd09293aaf"/>
 
 <!-- from cm9 repository -->
 
