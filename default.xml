@@ -274,43 +274,24 @@
   <project name="my4ndr0id/android_frameworks_compile_slang" path="frameworks/compile/slang" remote="github" revision="4f713157240b65b0bd12928fb252f3b7f8a42861"/>
   <project name="my4ndr0id/android_development" path="development" remote="github" revision="404718cd3eb1391d46125d5d337d85ea800f5913"/>
 
-  <project name="my4ndr0id/android_system_vold" path="system/vold" remote="github" revision="M8625SSNSKMLYA1050"/>
-  <project name="my4ndr0id/android_system_extras" path="system/extras" remote="github" revision="M8625SSNSKMLYA1050"/>
-  <project name="my4ndr0id/android_system_core" path="system/core" remote="github" revision="M8625SSNSKMLYA1050"/>
+  <project name="my4ndr0id/android_system_vold" path="system/vold" remote="github" revision="d4b276259db6ba62fa751603bc16e355fb556e5e"/>
+  <project name="my4ndr0id/android_system_extras" path="system/extras" remote="github" revision="5d954056729c57776daa3ad2c7dc6702bd278a10"/>
+  <project name="my4ndr0id/android_system_core" path="system/core" remote="github" revision="6217aa110176bb6bea525976ae9dbf76cc1a95d0"/>
 
-  <project name="my4ndr0id/android_device_qcom_common" path="device/qcom/common" remote="github" revision="M8625SSNSKMLYA1050"/>
-  <project name="my4ndr0id/android_device_qcom_msm7627a" path="device/qcom/msm7627a" remote="github" revision="M8625SSNSKMLYA1050"/>
-  <project name="my4ndr0id/android_device_sample" path="device/sample" remote="github" revision="M8625SSNSKMLYA1050"/>
+  <project name="my4ndr0id/android_device_qcom_common" path="device/qcom/common" remote="github" revision="36f1c0ff02b9e19516497a9bd1e57a63cb12143d"/>
+  <project name="my4ndr0id/android_device_qcom_msm7627a" path="device/qcom/msm7627a" remote="github" revision="5b867bbdbc40bc11f8ef8b5625132ba43353c2d0"/>
+  <project name="my4ndr0id/android_device_sample" path="device/sample" remote="github" revision="a6c193856870ad49ed522654bee3188e062473e2"/>
 
-  <project name="my4ndr0id/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="M8625SSNSKMLYA1050-next"/>
-  <project name="my4ndr0id/android_frameworks_base" path="frameworks/base" remote="github" revision="M8625SSNSKMLYA1050-next"/>
+  <project name="my4ndr0id/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="baab6e54c183c663257bd1ffbdc8ace21f94c52a"/>
+  <project name="my4ndr0id/android_frameworks_base" path="frameworks/base" remote="github" revision="8954e0fa1b43efd76d24f12de14ea70f15dc4343"/>
 
-  <project name="my4ndr0id/android_device_hisense_eg909" path="device/hisense/eg909" remote="github" revision="M8625SSNSKMLYA1050"/>
-
-  <project name="my4ndr0id/android_build" path="build" remote="github" revision="M8625SSNSKMLYA1050">
+  <project name="my4ndr0id/android_build" path="build" remote="github" revision="5e9499c6ce1ac0101cc1d83d315545d935328d00">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
 
   <project name="my4ndr0id/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="github" revision="M8625SSNSKMLYA1050"/>
   <project name="my4ndr0id/android_packages_apps_TSCalibration" path="packages/apps/TSCalibration" remote="github" revision="M8625SSNSKMLYA1050"/>
   <project name="my4ndr0id/android_packages_apps_QualcommSoftAP" path="packages/apps/QualcommSoftAP" remote="github" revision="M8625SSNSKMLYA1050"/>
-
-  <project name="my4ndr0id/android_vendor_hisense" path="vendor/hisense" remote="github" revision="caf-ics"/>
   <project name="my4ndr0id/android_vendor_qcom_proprietary" path="vendor/qcom/proprietary" remote="github" revision="msm7627a-ics"/>
-  <project name="my4ndr0id/android_vendor_gapps" path="vendor/gapps" remote="github" revision="ics"/>
-  <project name="my4ndr0id/android_vendor_my4ndr0id" path="vendor/my4ndr0id" remote="github" revision="master"/>
-
-<!-- from cm9 repository -->
-
-  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="refs/heads/ics" />
-  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="github" revision="refs/heads/ics"/>
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="refs/heads/ics" />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="refs/heads/ics" />
-
-  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="refs/heads/ics"/>
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="refs/heads/ics"/>
-  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="refs/heads/ics"/>
-  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="github" revision="refs/heads/ics"/>
-
 
 </manifest>
