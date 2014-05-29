@@ -258,9 +258,6 @@
   <project name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf" revision="889cd620ee5f5ba6454ac435dcc9b4410c5ea50e"/>
   <project name="platform/vendor/qcom/msm8960" path="device/qcom/msm8960" revision="40fb7dbec7a5e7336680f4ed4224515438d1a326"/>
 
-
-<!-- eg909 specific repository -->
-
   <project name="my4ndr0id/android_external_llvm" path="external/llvm" remote="github" revision="af2df906a282816f8435ecacaa355961c2c9f396"/>
   <project name="my4ndr0id/android_dalvik" path="dalvik" remote="github" revision="ea3e327a994a5e18e2c80c346d36590d181dba50"/>
   <project name="my4ndr0id/android_external_gtest" path="external/gtest" remote="github" revision="c473fb201af3debd6b64d57af51ab49b40cbc490"/>
@@ -285,7 +282,7 @@
   <project name="my4ndr0id/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="baab6e54c183c663257bd1ffbdc8ace21f94c52a"/>
   <project name="my4ndr0id/android_frameworks_base" path="frameworks/base" remote="github" revision="8954e0fa1b43efd76d24f12de14ea70f15dc4343"/>
 
-  <project name="my4ndr0id/android_build" path="build" remote="github" revision="5e9499c6ce1ac0101cc1d83d315545d935328d00">
+  <project name="my4ndr0id/android_build" path="build" remote="github" revision="caf-original">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
 
