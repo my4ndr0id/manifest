@@ -276,7 +276,7 @@
   <project name="my4ndr0id/android_system_core" path="system/core" remote="github" revision="6217aa110176bb6bea525976ae9dbf76cc1a95d0"/>
 
   <project name="my4ndr0id/android_device_qcom_common" path="device/qcom/common" remote="github" revision="36f1c0ff02b9e19516497a9bd1e57a63cb12143d"/>
-  <project name="my4ndr0id/android_device_qcom_msm7627a" path="device/qcom/msm7627a" remote="github" revision="5b867bbdbc40bc11f8ef8b5625132ba43353c2d0"/>
+  <project name="my4ndr0id/android_device_qcom_msm7627a" path="device/qcom/msm7627a" remote="github" revision="caf-original"/>
   <project name="my4ndr0id/android_device_sample" path="device/sample" remote="github" revision="a6c193856870ad49ed522654bee3188e062473e2"/>
 
   <project name="my4ndr0id/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="baab6e54c183c663257bd1ffbdc8ace21f94c52a"/>
@@ -291,5 +291,5 @@
   <project name="my4ndr0id/android_packages_apps_QualcommSoftAP" path="packages/apps/QualcommSoftAP" remote="github" revision="M8625SSNSKMLYA1050"/>
   <project name="my4ndr0id/android_vendor_qcom_proprietary" path="vendor/qcom/proprietary" remote="github" revision="msm7627a-ics"/>
   <project name="my4ndr0id/android_vendor_hisense" path="vendor/hisense" remote="github" revision="caf-ics"/>
-
+  <project name="my4ndr0id/android_device_hisense_eg909" path="device/hisense/eg909" remote="github" revision="caf-original"/>
 </manifest>
