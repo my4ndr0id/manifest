@@ -296,7 +296,7 @@
   <project name="my4ndr0id/android_packages_apps_QualcommSoftAP" path="packages/apps/QualcommSoftAP" remote="github" revision="M8625SSNSKMLYA1050"/>
 
   <project name="my4ndr0id/android_vendor_hisense" path="vendor/hisense" remote="github" revision="caf-ics"/>
-  <project name="my4ndr0id/android_vendor_qcom_proprietary" path="vendor/qcom/proprietary" remote="github" revision="master"/>
+  <project name="my4ndr0id/android_vendor_qcom_proprietary" path="vendor/qcom/proprietary" remote="github" revision="msm7627a-ics"/>
   <project name="my4ndr0id/android_vendor_gapps" path="vendor/gapps" remote="github" revision="ics"/>
   <project name="my4ndr0id/android_vendor_my4ndr0id" path="vendor/my4ndr0id" remote="github" revision="master"/>
 
