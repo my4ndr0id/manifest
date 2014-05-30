@@ -274,31 +274,31 @@
   <project name="my4ndr0id/android_frameworks_compile_slang" path="frameworks/compile/slang" remote="github" revision="4f713157240b65b0bd12928fb252f3b7f8a42861"/>
   <project name="my4ndr0id/android_development" path="development" remote="github" revision="404718cd3eb1391d46125d5d337d85ea800f5913"/>
 
-  <project name="my4ndr0id/android_system_vold" path="system/vold" remote="github" revision="M8625SSNSKMLYA1050"/>
-  <project name="my4ndr0id/android_system_extras" path="system/extras" remote="github" revision="M8625SSNSKMLYA1050"/>
-  <project name="my4ndr0id/android_system_core" path="system/core" remote="github" revision="M8625SSNSKMLYA1050"/>
+  <project name="my4ndr0id/android_system_vold" path="system/vold" remote="github" revision="refs/heads/M8625SSNSKMLYA1050"/>
+  <project name="my4ndr0id/android_system_extras" path="system/extras" remote="github" revision="refs/heads/M8625SSNSKMLYA1050"/>
+  <project name="my4ndr0id/android_system_core" path="system/core" remote="github" revision="refs/heads/M8625SSNSKMLYA1050"/>
 
-  <project name="my4ndr0id/android_device_qcom_common" path="device/qcom/common" remote="github" revision="M8625SSNSKMLYA1050"/>
-  <project name="my4ndr0id/android_device_qcom_msm7627a" path="device/qcom/msm7627a" remote="github" revision="M8625SSNSKMLYA1050"/>
-  <project name="my4ndr0id/android_device_sample" path="device/sample" remote="github" revision="M8625SSNSKMLYA1050"/>
+  <project name="my4ndr0id/android_device_qcom_common" path="device/qcom/common" remote="github" revision="refs/heads/M8625SSNSKMLYA1050"/>
+  <project name="my4ndr0id/android_device_qcom_msm7627a" path="device/qcom/msm7627a" remote="github" revision="refs/heads/M8625SSNSKMLYA1050"/>
+  <project name="my4ndr0id/android_device_sample" path="device/sample" remote="github" revision="refs/heads/M8625SSNSKMLYA1050"/>
 
-  <project name="my4ndr0id/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="M8625SSNSKMLYA1050-next"/>
-  <project name="my4ndr0id/android_frameworks_base" path="frameworks/base" remote="github" revision="M8625SSNSKMLYA1050-next"/>
+  <project name="my4ndr0id/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="refs/heads/M8625SSNSKMLYA1050-next"/>
+  <project name="my4ndr0id/android_frameworks_base" path="frameworks/base" remote="github" revision="refs/heads/M8625SSNSKMLYA1050-next"/>
 
-  <project name="my4ndr0id/android_device_hisense_eg909" path="device/hisense/eg909" remote="github" revision="M8625SSNSKMLYA1050"/>
+  <project name="my4ndr0id/android_device_hisense_eg909" path="device/hisense/eg909" remote="github" revision="refs/heads/M8625SSNSKMLYA1050"/>
 
-  <project name="my4ndr0id/android_build" path="build" remote="github" revision="M8625SSNSKMLYA1050">
+  <project name="my4ndr0id/android_build" path="build" remote="github" revision="refs/heads/M8625SSNSKMLYA1050">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
 
-  <project name="my4ndr0id/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="github" revision="M8625SSNSKMLYA1050"/>
-  <project name="my4ndr0id/android_packages_apps_TSCalibration" path="packages/apps/TSCalibration" remote="github" revision="M8625SSNSKMLYA1050"/>
-  <project name="my4ndr0id/android_packages_apps_QualcommSoftAP" path="packages/apps/QualcommSoftAP" remote="github" revision="M8625SSNSKMLYA1050"/>
+  <project name="my4ndr0id/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="github" revision="refs/heads/M8625SSNSKMLYA1050"/>
+  <project name="my4ndr0id/android_packages_apps_TSCalibration" path="packages/apps/TSCalibration" remote="github" revision="refs/heads/M8625SSNSKMLYA1050"/>
+  <project name="my4ndr0id/android_packages_apps_QualcommSoftAP" path="packages/apps/QualcommSoftAP" remote="github" revision="refs/heads/M8625SSNSKMLYA1050"/>
 
-  <project name="my4ndr0id/android_vendor_hisense" path="vendor/hisense" remote="github" revision="caf-ics"/>
-  <project name="my4ndr0id/android_vendor_qcom_proprietary" path="vendor/qcom/proprietary" remote="github" revision="master"/>
-  <project name="my4ndr0id/android_vendor_gapps" path="vendor/gapps" remote="github" revision="ics"/>
-  <project name="my4ndr0id/android_vendor_my4ndr0id" path="vendor/my4ndr0id" remote="github" revision="master"/>
+  <project name="my4ndr0id/android_vendor_hisense" path="vendor/hisense" remote="github" revision="refs/heads/caf-ics"/>
+  <project name="my4ndr0id/android_vendor_qcom_proprietary" path="vendor/qcom/proprietary" remote="github" revision="refs/heads/master"/>
+  <project name="my4ndr0id/android_vendor_gapps" path="vendor/gapps" remote="github" revision="refs/heads/ics"/>
+  <project name="my4ndr0id/android_vendor_my4ndr0id" path="vendor/my4ndr0id" remote="github" revision="refs/heads/master"/>
 
 <!-- from cm9 repository -->
 
