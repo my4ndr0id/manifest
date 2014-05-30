@@ -22,7 +22,7 @@ http://forum.xda-developers.com/showthread.php?t=2464683
 Download repository-nya
 
 ``````````````````
-  repo init -u git://github.com/my4ndr0id/manifest.git -b caf-ics
+  repo init -u git://github.com/my4ndr0id/manifest.git -b caf-original
 `````````````````
 
 untuk menghemat bandwidth, ketiga project ini lebih baik download zip-nya aja:
@@ -108,22 +108,22 @@ di folder root dari repository (ada tanda titiknya, emang bukan typo):
 lalu ketik
 
 `````````````
-brunch
+lunch
 `````````````
 
 akan ada pilihan:
 
 ``````````````````````
-including vendor/my4ndr0id/vendorsetup.sh
-
 You're building on Linux
 
-Breakfast menu... pick a combo:
+Lunch menu... pick a combo:
      1. full-eng
-     2. my4ndr0id_eg909-eng
-     3. my4ndr0id_eg909-userdebug
-     4. my4ndr0id_eg909-user
-... and don't forget the bacon!
+     2. full_x86-eng
+     3. vbox_x86-eng
+     4. my4ndr0id_eg909-eng
+     5. full_maguro-userdebug
+     6. full_tuna-userdebug
+     7. full_panda-eng
 ``````````````````````
 
-pilih nomer dua,mode userdebug dan user masih blum fix. Jika selesai build zip installer akan ada di folder out/target/product/eg909/
+ Jika selesai build zip installer akan ada di folder out/target/product/eg909/
