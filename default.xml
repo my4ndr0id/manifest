@@ -35,8 +35,8 @@
 
   <project name="my4ndr0id/android_device_sample" path="device/sample" revision="a6c193856870ad49ed522654bee3188e062473e2"/>
 
-  <project name="my4ndr0id/android_device_qcom_common" path="device/qcom/common" revision="36f1c0ff02b9e19516497a9bd1e57a63cb12143d"/>
-  <project name="my4ndr0id/android_device_qcom_msm7627a" path="device/qcom/msm7627a" revision="caf-original"/>
+  <project name="my4ndr0id/android_device_qcom_common" path="device/qcom/common" />
+  <project name="my4ndr0id/android_device_qcom_msm7627a" path="device/qcom/msm7627a" />
 
   <project name="my4ndr0id/android_docs_source.android.com" path="docs/source.android.com" />
 
