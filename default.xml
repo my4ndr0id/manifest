@@ -289,8 +289,6 @@
 
   <project name="my4ndr0id/android_vendor_qcom_proprietary" path="vendor/qcom/proprietary" revision="msm7627a-ics"/>
 
-
-
   <project name="my4ndr0id/android_packages_apps_Settings" path="packages/apps/Settings" />
 
   <project name="my4ndr0id/android_build" path="build" >
@@ -302,5 +300,25 @@
   <project name="my4ndr0id/android_packages_apps_QualcommSoftAP" path="packages/apps/QualcommSoftAP" revision="M8625SSNSKMLYA1050"/>
 
   <project name="my4ndr0id/android_vendor_hisense" path="vendor/hisense" revision="caf-ics"/>
+
+  <project name="my4ndr0id/android_external_bash" path="external/bash" revision="refs/heads/ics"/>
+  <project name="my4ndr0id/android_external_lzo" path="external/lzo" revision="refs/heads/ics" />
+  <project name="my4ndr0id/android_external_openvpn" path="external/openvpn" revision="refs/heads/ics" />
+  <project name="my4ndr0id/android_external_libncurses" path="external/libncurses" revision="refs/heads/ics" />
+  <project name="my4ndr0id/android_packages_apps_GanOptimizer" path="packages/apps/GanOptimizer" revision="refs/heads/ics" />
+  <project name="my4ndr0id/android_packages_apps_CMUpdater" path="packages/apps/CMUpdater" revision="refs/heads/ics" />
+  <project name="my4ndr0id/android_packages_apps_CMWallpapers" path="packages/apps/CMWallpapers" revision="refs/heads/ics" />
+  <project name="my4ndr0id/android_external_nano" path="external/nano" revision="refs/heads/ics" />
+  <project name="my4ndr0id/android_hardware_cm" path="hardware/cm" revision="refs/heads/ics" />
+  <project name="my4ndr0id/android_packages_apps_Apollo" path="packages/apps/Apollo" revision="refs/heads/ics" />
+  <project name="my4ndr0id/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="refs/heads/ics"/>
+  <project name="my4ndr0id/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" revision="refs/heads/ics" />
+  <project name="my4ndr0id/android_vendor_tmobile_libs_com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" revision="refs/heads/ics" />
+  <project name="my4ndr0id/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" revision="refs/heads/ics" />
+  <project name="my4ndr0id/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" revision="refs/heads/ics" />
+  <project name="my4ndr0id/android_packages_apps_DSPManager" path="packages/apps/DSPManager" revision="refs/heads/ics" />
+  <project name="my4ndr0id/android_vendor_gapps" path="vendor/gapps" revision="refs/heads/ics" />
+  <project name="my4ndr0id/android_vendor_my4ndr0id" path="vendor/my4ndr0id" />
+  <project name="my4ndr0id/android_external_busybox" path="external/busybox" revision="refs/heads/ics" />
 
 </manifest>
