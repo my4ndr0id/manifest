@@ -22,40 +22,8 @@ http://forum.xda-developers.com/showthread.php?t=2464683
 Download repository-nya
 
 ``````````````````
-  repo init -u git://github.com/my4ndr0id/manifest.git -b caf-original
+  repo init -u git://github.com/my4ndr0id/manifest.git -b caf-cm9
 `````````````````
-
-untuk menghemat bandwidth, ketiga project ini lebih baik download zip-nya aja:
-
-* device/samsung/tuna -> https://www.codeaurora.org/cgit/external/gigabyte/device/samsung/tuna/snapshot/M8625SSNSKMLYA1050.tar.gz
-* kernel/msm -> https://www.codeaurora.org/cgit/external/gigabyte/kernel/msm/snapshot/M8625SSNSKMLYA1050.tar.gz
-* platform/external/webkit -> https://www.codeaurora.org/cgit/external/gigabyte/platform/external/webkit/snapshot/M8625SSNSKMLYA1050.tar.gz
-
-extract sesuai dengan folder-nya masing - masing, untuk kernel, patch AndroidKernel.mk dengan
-
-```````````````
-https://github.com/marcofreda527/caf_kernel_msm_ics_strawberry/commit/c088ae12c1dd2ac3935a23e82255eb96dc0a3e05.patch
-``````````````
-
-caranya, di dalam folder kernel, ketik
-
-````````````
-wget https://github.com/marcofreda527/caf_kernel_msm_ics_strawberry/commit/c088ae12c1dd2ac3935a23e82255eb96dc0a3e05.patch
-``````````
-
-lalu
-
-```````````
-patch -p1 < c088ae12c1dd2ac3935a23e82255eb96dc0a3e05.patch
-```````````
-
-download local_manifest ini agar ketiga project diatas tidak otomatis di sync
-
-di folder root dari repository ketik:
-
-```````````
-  curl -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/my4ndr0id/manifest/caf-ics/local_manifest.xml
-``````````
 
 lalu
 
@@ -108,22 +76,22 @@ di folder root dari repository (ada tanda titiknya, emang bukan typo):
 lalu ketik
 
 `````````````
-lunch
+brunch
 `````````````
 
 akan ada pilihan:
 
 ``````````````````````
+including vendor/my4ndr0id/vendorsetup.sh
+
 You're building on Linux
 
-Lunch menu... pick a combo:
+Breakfast menu... pick a combo:
      1. full-eng
-     2. full_x86-eng
-     3. vbox_x86-eng
-     4. my4ndr0id_eg909-eng
-     5. full_maguro-userdebug
-     6. full_tuna-userdebug
-     7. full_panda-eng
+     2. my4ndr0id_eg909-eng
+... and don't forget the bacon!
+
+Which would you like? [full-eng]
 ``````````````````````
 
  Jika selesai build zip installer akan ada di folder out/target/product/eg909/
