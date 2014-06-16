@@ -16,15 +16,16 @@
   <project name="my4ndr0id/android_device_generic_goldfish" path="device/generic/goldfish" />
   <project name="my4ndr0id/android_device_google_accessory_arduino" path="device/google/accessory/arduino" />
   <project name="my4ndr0id/android_device_google_accessory_demokit" path="device/google/accessory/demokit" />
-  <project name="my4ndr0id/android_bootable_bootloader_lk" path="bootable/bootloader/lk" />
+
 
   <project name="my4ndr0id/android_abi_cpp" path="abi/cpp" />
 
   <project name="my4ndr0id/android_bionic" path="bionic" />
 
+  <project name="my4ndr0id/android_bootable_bootloader_lk" path="bootable/bootloader/lk" />
   <project name="my4ndr0id/android_bootable_bootloader_legacy" path="bootable/bootloader/legacy" />
   <project name="my4ndr0id/android_bootable_diskinstaller" path="bootable/diskinstaller" />
-  <project name="my4ndr0id/android_bootable_recovery" path="bootable/recovery" />
+  <project name="my4ndr0id/Team-Win-Recovery-Project" path="bootable/recovery" revision="twrp2.4"/>
 
   <project name="my4ndr0id/android_cts" path="cts" />
 
