@@ -272,7 +272,7 @@
   <project name="my4ndr0id/android_system_netd" path="system/netd" />
   <project name="my4ndr0id/android_system_qcom" path="system/qcom" />
   <project name="my4ndr0id/android_system_vold" path="system/vold" />
-  <project name="my4ndr0id/android_system_extras" path="system/extras" revision="5d954056729c57776daa3ad2c7dc6702bd278a10"/>
+  <project name="my4ndr0id/android_system_extras" path="system/extras" revision="956e46a6a6b26aa44c00bb2bd9bcfd49f7c930f0"/>
   <project name="my4ndr0id/android_system_core" path="system/core" />
 
   <project name="my4ndr0id/android_vendor_qcom_android-open" path="vendor/qcom/android-open" />
