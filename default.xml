@@ -25,7 +25,7 @@
   <project name="my4ndr0id/android_bootable_bootloader_lk" path="bootable/bootloader/lk" />
   <project name="my4ndr0id/android_bootable_bootloader_legacy" path="bootable/bootloader/legacy" />
   <project name="my4ndr0id/android_bootable_diskinstaller" path="bootable/diskinstaller" />
-  <project name="my4ndr0id/Team-Win-Recovery-Project" path="bootable/recovery" revision="twrp2.4"/>
+  <project name="my4ndr0id/android_bootable_recovery" path="bootable/recovery" />
 
   <project name="my4ndr0id/android_cts" path="cts" />
 
